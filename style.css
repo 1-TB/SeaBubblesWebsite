@@ -3,17 +3,20 @@ body {
     background-color: #89BBFE;
 }
 
-.topNav h1 {
-    color: #EDDEA4;
-    display: inline;
-    margin: 2rem;
-}
+
 
 /*navigation bar styling*/
 .topBar{
     display: flex;
     flex-flow: row wrap;
     justify-content: start;
+    padding-bottom: 1vh;
+}
+.fa-bars{
+    scale: 200%;
+    padding: 2vh;
+}
+.fa-bars:hover{
 
 }
 .topNav {
@@ -51,8 +54,10 @@ body {
     background-image: url('reef.jpg');
     background-size: cover;
   }
-
-.imgContainer h1 {
+.title{
+    margin: auto;
+}
+.imgContainer {
     margin: auto;
     text-align: center;
     color: white;
