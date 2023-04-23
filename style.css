@@ -1,3 +1,36 @@
 body {
     background-color: #00ABE7;
 }
+
+.navbar {
+    background-color: #0081AF;
+}
+
+.fa-water {
+    color: #EAD2AC;
+    padding: .5rem;
+}
+
+.bg-image {
+    background-image: url("reef.jpg");
+    height: 100vh;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imageText {
+    color:white;
+    background-color: #0081AF;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.btn {
+    display: flex;
+    background-color: #004963;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
