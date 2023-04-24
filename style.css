@@ -4,6 +4,7 @@ body {
 
 .navbar {
     background-color: #0081AF;
+    color:#EAD2AC;
 }
 
 .fa-water {
@@ -21,16 +22,33 @@ body {
 }
 
 #imageText {
-    color:white;
+    color:#EAD2AC;
     background-color: #0081AF;
     border-radius: 1rem;
     padding: 2rem;
+    text-align: center;
 }
 
 .btn {
     display: flex;
     background-color: #004963;
-    align-items: center;
-    text-align: center;
-    color: white;
+    justify-content: center;
+    color: #EAD2AC;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+#listStyle {
+    background-color: #0081AF;
+    padding: 1rem;
+    color: #EAD2AC;
+    border-radius: 1rem;
+}
+
+#reviewContainer {
+    background-color: #0081AF;
+    padding: 1rem;
+    color: #EAD2AC;
+    border-radius: 1rem;
+
 }
