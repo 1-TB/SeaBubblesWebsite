@@ -25,12 +25,13 @@ body {
     background-color: #0081AF;
     border-radius: 1rem;
     padding: 2rem;
+    text-align: center;
 }
 
 .btn {
     display: flex;
     background-color: #004963;
-    align-items: center;
-    text-align: center;
+    justify-content: center;
     color: white;
+    margin: 1rem;
 }
