@@ -4,7 +4,7 @@ body {
 
 .navbar {
     background-color: #0081AF;
-    color:#EAD2AC;
+    color: #EAD2AC;
 }
 
 .fa-water {
@@ -22,7 +22,7 @@ body {
 }
 
 #imageText {
-    color:#EAD2AC;
+    color: #EAD2AC;
     background-color: #0081AF;
     border-radius: 1rem;
     padding: 2rem;
@@ -51,4 +51,20 @@ body {
     color: #EAD2AC;
     border-radius: 1rem;
 
+}
+
+#listStyle h2 {
+    text-align: center;
+}
+
+.footer {
+    background-color: #004963;
+    color: #EAD2AC;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #EAD2AC;
 }
