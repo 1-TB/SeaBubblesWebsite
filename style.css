@@ -1,17 +1,25 @@
 body {
     background-color: #00ABE7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column
 }
 
+
+/* navigation */
 .navbar {
     background-color: #0081AF;
     color: #EAD2AC;
 }
 
+
+/* icon */
 .fa-water {
     color: #EAD2AC;
     padding: .5rem;
 }
 
+/* background image */
 .bg-image {
     background-image: url("reef.jpg");
     height: 100vh;
@@ -21,6 +29,7 @@ body {
     background-size: cover;
 }
 
+/* text overlay */
 #imageText {
     color: #EAD2AC;
     background-color: #0081AF;
@@ -29,6 +38,7 @@ body {
     text-align: center;
 }
 
+/* button */
 .btn {
     display: flex;
     background-color: #004963;
@@ -38,6 +48,7 @@ body {
     font-weight: bold;
 }
 
+/* list */
 #listStyle {
     background-color: #0081AF;
     padding: 1rem;
@@ -45,6 +56,7 @@ body {
     border-radius: 1rem;
 }
 
+/* review carousel */
 #reviewContainer {
     background-color: #0081AF;
     padding: 1rem;
@@ -53,17 +65,34 @@ body {
 
 }
 
+/* lsit heading */
 #listStyle h2 {
     text-align: center;
 }
 
+/* contact page */
+.contactUs {
+    color:#EAD2AC;
+    background-color: #0081AF;
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+/* contact links */
+.contactUs a {
+    text-decoration: none;
+    color: #EAD2AC;
+}
+/* footer */
 .footer {
     background-color: #004963;
     color: #EAD2AC;
     text-decoration: none;
     text-align: center;
+    margin-top: auto;
 }
 
+/* footer links */
 .footer a {
     text-decoration: none;
     color: #EAD2AC;
