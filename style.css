@@ -1,5 +1,8 @@
 body {
     background-color: #00ABE7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column
 }
 
 .navbar {
@@ -62,6 +65,7 @@ body {
     color: #EAD2AC;
     text-decoration: none;
     text-align: center;
+    margin-top: auto;
 }
 
 .footer a {
