@@ -70,6 +70,19 @@ body {
     text-align: center;
 }
 
+/* contact page */
+.contactUs {
+    color:#EAD2AC;
+    background-color: #0081AF;
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+/* contact links */
+.contactUs a {
+    text-decoration: none;
+    color: #EAD2AC;
+}
 /* footer */
 .footer {
     background-color: #004963;
